@@ -69,3 +69,64 @@ title.addEventListener("click", handleClick);
 
 # 3일차 과제 제출
 https://codesandbox.io/s/day-three-blueprint-forked-kzsov?file=/src/index.js
+
+# 2.5 if, else, and, or
+사용자에게 질문하는 코드
+``` js
+const age = prompt("How old are you?"); // 하지만 쓰지 않는다!
+```
+
+# 2.6 DOM - if else - Function Practice
+텍스트를 클릭하면 color를 바꾸는 코드
+``` js
+const title = document.querySelector("#title");
+
+const BASE_COLOR = "rgb(52, 73, 94)";
+const OTHER_COLOR = "#7f8c8d";
+
+function handleClick() {
+    const currentColor = title.style.color;
+    if (currentColor === BASE_COLOR) {
+        title.style.color = OTHER_COLOR;
+    } else {
+        title.style.color = BASE_COLOR;
+    }
+}
+
+function init() {
+
+title.style.color = BASE_COLOR;
+
+title.addEventListener("click", handleClick);
+}
+
+init();
+```
+
+# 2.7 DOM - if else - Function Practice Two
+javascript에서 style을 만지는 것은 지저분하다.  
+css에서 class에 스타일을 지정하여 class를 건드려야 한다.
+``` js
+const title = document.querySelector("#title");
+
+const CLICKED_CLASS = "clicked";
+
+function handleClick() {
+    // const hasClass = title.className.contains(CLICKED_CLASS);
+    // if(!hasClass){
+    //     title.classList.add(CLICKED_CLASS);
+    // } else {
+    //     title.classList.remove(CLICKED_CLASS);
+    // }
+    title.classList.toggle(CLICKED_CLASS); // 위의 코드 축약
+}
+
+function init() {
+title.addEventListener("click", handleClick);
+}
+
+init();
+```
+
+# 4일차 과제 제출
+https://codesandbox.io/s/empty-blueprint-forked-cbh7f?file=/src/index.js
