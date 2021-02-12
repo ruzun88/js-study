@@ -130,3 +130,9 @@ init();
 
 # 4일차 과제 제출
 https://codesandbox.io/s/empty-blueprint-forked-cbh7f?file=/src/index.js
+
+# 3.1 Making a JS Clock part Two
+- setInterval(실행할함수, 실행간격)
+
+# 5일차 과제 제출
+https://codesandbox.io/s/day-five-blueprint-forked-jd1q0?file=/src/index.js
