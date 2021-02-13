@@ -136,3 +136,6 @@ https://codesandbox.io/s/empty-blueprint-forked-cbh7f?file=/src/index.js
 
 # 5일차 과제 제출
 https://codesandbox.io/s/day-five-blueprint-forked-jd1q0?file=/src/index.js
+
+# 6일차 과제 제출
+https://codesandbox.io/s/day-six-blueprint-forked-iqpnq?file=/src/index.js
